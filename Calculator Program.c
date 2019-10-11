@@ -3,31 +3,31 @@
 #include<math.h>
 int arith()
 {
- int a,b,c,n;
- printf("ARITHMATIC OPERATIONS MENU\nWHAT OPERATION DO YOU WANT TO PERFORM?\nFOR ADDITION PRESS 1\nFOR SUBTRACTION PRESS 2\nFOR MULTIPLICATION PRESS 3\nFOR DIVISION PRESS 4\n");
+ int r,k,c,n;
+ printf("WHAT OPERATION DO YOU WANT TO PERFORM?\nFOR ADDITION PRESS 1\nFOR SUBTRACTION PRESS 2\nFOR MULTIPLICATION PRESS 3\nFOR DIVISION PRESS 4\n");
  scanf("%d",&n);
  switch(n){
  case 1:
       printf("Enter two numbers\n");
-	  scanf("%d%d",&a,&b);
+	  scanf("%d%d",&r,&k);
 	  c=a+b;
 	  printf("Addition result is %d\n",c);
 	  break;
  case 2:
       printf("Enter two numbers\n");
-	  scanf("%d%d",&a,&b);
+	  scanf("%d%d",&r,&k);
 	  c=a-b;
 	  printf("Subtraction result is %d\n",c);
 	  break;
  case 3:
       printf("Enter two numbers\n");
-	  scanf("%d%d",&a,&b);
+	  scanf("%d%d",&r,&k);
 	  c=a*b;
 	  printf("Multiplication result is %d\n",c);
 	  break;
  case 4:
       printf("Enter two numbers\n");
-	  scanf("%d%d",&a,&b);
+	  scanf("%d%d",&r,&k);
 	  c=a/b;
 	  printf("Division result is %d\n",c);
 	  break;
